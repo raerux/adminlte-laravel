@@ -45,6 +45,7 @@
             </div>
             @enderror
         </div>
+        <a href="{{route('users.index')}}" class="btn btn-secondary">Voltar</a>
         <button type="submit" class="btn btn-primary">Criar</button>
     </form>
 @endsection
